@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProtectedPage = () => {
   return (
-    <div>ProtectedPage</div>
+    <div>Page</div>
   )
 }
 
