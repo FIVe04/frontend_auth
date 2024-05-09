@@ -8,7 +8,7 @@ const Input = (props) => {
     return (
     <div className='inputOuter'>
         <img src = {props.icon} className='icon'/>
-        <input placeholder={props.placeholder} className='input' type={props.type}/>
+        <input placeholder={props.placeholder} className='input' type={props.type} onChange={props.onChange}/>
     </div>
     )
 }
